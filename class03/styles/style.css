@@ -1,0 +1,51 @@
+/* 태그 선택자 */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin-bottom: 10px;
+}
+
+
+/* 아이디 선택자 */
+#box{
+  background-color: dodgerblue;
+}
+
+
+/* 클래스 선택자 */
+.box{
+  background-color: hotpink;
+}
+
+
+/* 속성 선택자 */
+
+div[name="tiger"]{
+  background-color: red;
+}
+
+
+
+div[name="tiger"]:hover{
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
