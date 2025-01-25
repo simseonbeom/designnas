@@ -18,7 +18,6 @@ div {
   background-color: hotpink;
 }
 
-
 /* 속성 선택자 */
 
 div[name="tiger"]{
@@ -31,8 +30,20 @@ div[name="tiger"]:hover{
   background-color: black;
 }
 
+input:focus{
+  background-color: skyblue;
+}
+
+a:visited{
+  color: red
+}
 
 
+
+button:disabled{
+  background-color: black;
+  color: white;
+}
 
 
 
