@@ -1,0 +1,100 @@
+
+
+h1{
+  color: red;
+}
+
+
+
+
+/* 태그 선택자 : 1 */
+figure{
+  background-color: orange;
+}
+
+
+/* 클래스 선택자 : 10  class => . */
+.fig{
+  background-color: dodgerblue;
+}
+
+
+/* 아이디 선택자 : 100   id => # */
+#_fig{
+  background-color: hotpink;
+}
+
+
+.first{
+  font-size: 30px;
+  color: orange;
+}
+
+.second{
+  font-size: 15px;
+  color: dodgerblue
+}
+
+
+a{
+  text-decoration: none;
+  /* padding: 1rem; */
+  /* background-color: gray; */
+  /* border: 1px solid gray; */
+}
+
+
+/* button{
+  background-color: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+} */
+
+
+
+
+.list{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  list-style: none;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+
+.item01{
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+}
+
+.item02{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.item03{
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
