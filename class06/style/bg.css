@@ -1,0 +1,29 @@
+
+
+
+
+body{
+  height: 5000px;
+}
+.bg{
+  /* width: ; */
+  height: 500px;
+  background-image: url('../chill.webp');
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+

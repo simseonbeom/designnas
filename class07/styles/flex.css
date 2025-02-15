@@ -1,0 +1,84 @@
+
+body{
+  /* position:relative */
+}
+
+/* 가로 배치를 주고싶은 대상의 부모에게 선언 */
+
+.container{
+  /* width: 100vw; */
+  /* height: 100vh; */
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate:-50% -50%;
+
+
+  .box{
+    width: 100px;
+    height: 100%; /* 부모 크기 따라감 */
+    background-color: dodgerblue;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    /* 비율 */
+    /* margin-right: 10px; */
+    /* margin: 0 auto 40px auto; */
+/* 
+    &:last-child{
+      margin: 0;
+    } */
+ 
+    transition: all .5s;
+
+    &:nth-child(1){
+      background-color: red;
+      flex: 1;
+    }
+
+    &:nth-child(2){
+      background-color: orange;
+      flex: 1;
+    }
+
+    &:nth-child(3){
+      background-color: green;
+      flex: 1;
+    }
+
+
+    &:hover{
+      flex: 3;
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

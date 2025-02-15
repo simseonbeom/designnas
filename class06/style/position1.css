@@ -1,0 +1,106 @@
+body {
+  height: 5000px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: red;
+  /* margin-left: 150px; */
+  /* margin-top: 100px; */
+  position: relative;
+  margin: 0 auto;
+  /* left: 400px; */
+  /* top: 400px; */
+}
+
+.box2 {
+  background-color: dodgerblue;
+}
+
+.wrap {
+  width: 600px;
+  height: 600px;
+  background-color: hotpink;
+  position: relative;
+}
+
+.wrap .list1 {
+  background-color: cyan;
+  /* float: left; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* left: ; */
+  /* top: ; */
+  /* right: ; */
+  /* bottom: ; */
+}
+
+.wrap .list2 {
+  background-color: yellow;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.wrap .list3 {
+  background-color: dodgerblue;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.wrap .list4 {
+  background-color: green;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.wrap .list5 {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  /* 무조건 내 크기의 절반만큼 반대로 이동해! */
+  /* margin-left: -100px; */
+  /* margin-top: -100px; */
+  /* transform: translateX(-50%) translateY(-50%) */
+  /* transform:translate(-50%, -50%) */
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  position: fixed;
+  left:50%;
+  top:50%;
+  translate: -50% -50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
